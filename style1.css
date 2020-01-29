@@ -1,0 +1,84 @@
+.column0
+  {
+  float: left;
+  
+  padding: 5px;
+  }
+  .column1 
+  {
+  float: left;
+  
+  padding: 5px;
+  }
+
+
+/* Clearfix (clear floats) */
+.row::after 
+{
+
+
+  display: table;
+}
+
+#Gk {
+  position: fixed;
+  
+  width: 40%;
+  height: 50%;
+  
+  background-color: white;
+  z-index: 1;
+  margin-top: 60px;
+
+}
+#Def {
+  position: fixed;
+  display: none;
+  width: 40%;
+  height: 50%;
+  
+  background-color: white;
+  z-index: 1;
+  margin-top: 60px;
+}
+#Mid {
+  position: fixed;
+  display: none;
+  width: 40%;
+  height: 100%;
+  
+  background-color: white;
+  z-index: 1;
+  margin-top: 60px;
+}
+
+#Fw {
+  position: fixed;
+  display: none;
+  width: 40%;
+  height: 100%;
+  
+  background-color: white;
+  z-index: 1;
+  margin-top: 60px;
+}
+
+.btn-group .button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  border: 2px solid white;
+
+}
+
+.disable {
+
+opacity : 0.5;
+}
